@@ -1,0 +1,128 @@
+#statusHud {
+	width: 14.2%;
+	position: absolute;
+	bottom: 0.5%;
+    left: 1.5%;
+	/* border: 1px solid red; */
+}
+
+#varHealth {
+	width: calc(25% - 2px - 4px);
+	margin-left: 0px !important;
+} 
+#varArmor {
+	width: calc(25% - 4px - 4px);
+
+}
+#varHealth > .barIcon,
+#varArmor > .barIcon {
+	width: 10%;
+}
+#varStress {
+	margin-right: 0px !important;
+}
+
+#varHealth > #boxSetHealth {
+	background: hsl(34, 100%, 50%);
+}
+#varArmor > #boxSetArmour {
+	background:  #3700ff;
+}
+
+#varHunger > #boxSetHunger {
+	background: #ff8800;
+}
+
+#varThirst > #boxSetThirst {
+	background: #0051ff;
+}
+
+#varOxygen > #boxSetOxygen {
+	background: #b300ff;
+}
+
+#varStress > #boxSetStress {
+	background: hsl(244, 100%, 50%);
+}
+
+.ui-container {
+    display: none;
+    font-size: 10vh;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    letter-spacing: .1vh;
+}
+
+.bar {
+	width: calc(12.5% - 4px - 4px);
+	height: 25.5px;
+	float: left;
+
+	/* padding: 2px; */
+	border: 2px solid rgba(255,255,255,0.8);
+	margin-right: 2px;
+    margin-left: 2px;
+    z-index: 98;
+}
+
+#boxSetHealth, #boxSetArmour, #boxSetHunger, #boxSetThirst, #boxSetOxygen, #boxSetStress {
+	width: 100%;
+	height: 25.5px;
+	background: rgba(110, 110, 110, 0.5);
+	position: relative;
+	bottom: 0;
+	z-index: 97;
+}
+
+.ui-drunkbar > i {
+    position: absolute;
+    font-size: 1.3vh;
+    top: 2;
+    left: 0;
+    padding: .45vh;
+    color: rgba(255, 255, 255, 0.8 );
+    text-shadow: .08vh .02vh .1vh rgba(0, 0, 0, 0.2);
+    z-index: 101;
+}
+.ui-smallbar {
+    float: left;
+    width: 11%;
+    margin-right: 1%;
+}
+
+
+.barIcon {
+	width: calc(12.5% - 4px - 4px);
+	height: 15.5px;
+	padding-top: 5px;
+	position: absolute;
+	color: rgba(255, 255, 255, 0.8 );
+	z-index: 99;
+	/* padding: 5px; */
+}
+
+.barIconDrunk {
+	width: calc(12.5% - 4px - 4px);
+	height: 15.5px;
+	padding-top: 5px;
+    padding: .45vh;
+	position: absolute;
+	color: rgba(255, 255, 255, 0.8 );
+	z-index: 99;
+	/* padding: 5px; */
+}
+
+.barIconTalking {
+	width: calc(12.5% - 4px - 4px);
+	height: 15.5px;
+	padding-top: 3px;
+    padding: .65vh;
+	position: absolute;
+	color: rgba(255, 255, 255, 0.8 );
+	z-index: 99;
+	/* padding: 5px; */
+}
+
+

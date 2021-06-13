@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShopVehicleDataArray>
+	<Vehicles>
+		<Item>
+			<lockHash>CU_FT1C_VEH</lockHash>
+			<modelNameHash>ft1c</modelNameHash>
+			<cost value="100"/>
+			<textLabel>FT1C</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+		<Item>
+			<lockHash>CU_FT1GR3_VEH</lockHash>
+			<modelNameHash>ft1gr3</modelNameHash>
+			<cost value="100"/>
+			<textLabel>ft1gr3</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+	</Vehicles>
+</ShopVehicleDataArray>

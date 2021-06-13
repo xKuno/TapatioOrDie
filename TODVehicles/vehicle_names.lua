@@ -1,0 +1,35 @@
+function AddTextEntry(key, value)
+	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), key, value)
+end
+
+Citizen.CreateThread(function()
+
+    AddTextEntry("16charger", "Dodge Charger")  --1 
+    AddTextEntry("18m4", "BMW M4")
+    AddTextEntry("Huracan", "Lamborghini Huracan")  --1 
+    AddTextEntry("911", "Porsche 911")  --1 
+    AddTextEntry("i8", "BMW I8")
+    AddTextEntry("divo", "Bugatti Divo")
+    AddTextEntry("rs5", "Audi RS5")
+    --AddTextEntry("bbentayga", "BentleyBentayga")
+    AddTextEntry("bmci", "BMW M5")
+    AddTextEntry("2020ss", "Chevrolet Camaro")
+    AddTextEntry("demon", "Dodge Demon")
+    AddTextEntry("g500", "Mercedes G500")
+    AddTextEntry("JAGPR8", "Jaguar XE SVR")
+    AddTextEntry("kx450f", "Kawasaki KX450F")
+    AddTextEntry("MGT", "Ford Mustang GT")
+    AddTextEntry("GTR", "Nissan GTR")
+    AddTextEntry("p1", "McLaren P1")
+    AddTextEntry("rmodlp750", "Lamborghini Adventador")
+    AddTextEntry("rs4avant", "Audi RS4")
+    AddTextEntry("ROADSTER 20", "Tesla Roadster 2020")
+    AddTextEntry("URUS", "Lamborghini Urus")
+    AddTextEntry("KTMX", "KTM X-Bow")
+    AddTextEntry("rmodgt63", "Mercedes-AMG GT63 S")
+    AddTextEntry("MCLARENSENN", "McLaren Senna")
+    AddTextEntry("rmodrs7", "Audi RS7")
+    AddTextEntry("rs6", "Audi RS6")
+    AddTextEntry("r8ppiS", "Audi R8")
+    AddTextEntry("1m2011", "BMW M1")
+end)

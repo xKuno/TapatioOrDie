@@ -1,0 +1,77 @@
+html {
+    color: #34495e;
+    font-family: 'Segoe UI';
+}
+
+#wrap {
+    width: 58vw;
+    min-height: 11.5625rem;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background: hsl(34, 100%, 50%);
+    box-shadow: 0rem 0.125rem 0.3125rem 0rem rgba(0, 0, 0, 0.5), 0rem 0.125rem 0.625rem 0rem rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 0.125rem;
+}
+
+p {
+    float: left;
+    margin-left: 0.9375rem;
+    padding-left: 0.625rem;
+    font-size: 1.05vw;
+}
+
+.header {
+    font-family: 'Segoe UI';
+    height: 2.1875rem;
+    width: auto;
+    background-color: hsl(34, 100%, 50%);
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border-top-left-radius: 0.125rem 0.125rem;
+    border-top-right-radius: 0.125rem 0.125rem;
+}
+
+.jobs {
+    font-family: 'Segoe UI';
+    padding-top: 0.625rem;
+    background-color: hsl(34, 100%, 50%);
+    height: 3vw;
+    width: 100%;
+    box-shadow: 0rem 0.0625rem 0.0625rem 0rem rgba(0, 0, 0, 0.3), 0rem 0.0625rem 0.0625rem 0rem rgba(0, 0, 0, 0.3);
+}
+
+.jobs p {
+    font-family: 'Segoe UI';
+}
+
+table {
+    text-align: left;
+    color: white;
+}
+
+th, td {
+    padding-left: 1.5625rem;
+}
+
+th {
+    padding-top: 0.625rem;
+    height: 2.5rem;
+}
+
+tr {
+    font-size: 0.45vw;
+    font-family: 'Segoe UI';
+    text-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.5);
+}
+
+tr.heading {
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.serverinfo {
+    font-size: 0.8vw;
+    text-align: center;
+}

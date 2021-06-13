@@ -1,0 +1,16 @@
+Locales['en'] = {
+  ['not_enough_money']    = 'you do not have enough money',
+  ['iimport_belongs']       = 'an iimport with plate %s now belongs to you',
+  ['generic_shopitem']    = '$%s',
+  ['iimport_dealer']        = 'Dealership | Illegal Imports',
+  ['buy_iimport_shop']      = 'do you want to purchase %s for $%s?',
+  ['no']                  = 'no',
+  ['yes']                 = 'yes',
+  ['iimport_purchased']     = 'you bought a custom vehicle',
+  ['shop_menu']           = 'press ~INPUT_CONTEXT~ to access the menu',
+  ['shop_awaiting_model'] = 'the vehicle is currently DOWNLOADING & LOADING please wait',
+  ['sell_menu']           = 'press ~INPUT_CONTEXT~ to sell your %s for $%s',
+  ['license_missing']     = 'you don\'t have a Commercial\'s License!',
+  ['iimport_sold_for']      = 'the %s has been sold for $%s',
+  ['not_yours']           = 'this vehicle does not belong to you',
+}
